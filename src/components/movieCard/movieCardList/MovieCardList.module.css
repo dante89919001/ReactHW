@@ -1,0 +1,6 @@
+.MovieListContainter{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 24px;
+}

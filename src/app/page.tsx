@@ -1,10 +1,10 @@
 import { Header } from '@/components/layout/header/Header'
 import styles from './page.module.css'
-import { Sidebar } from '@/components/layout/sidebar/Sidebar'
+import MainPage from '@/components/mainPage/MainPage'
 export default function Home() {
   return (
     <>
-      <Sidebar/>
+      <MainPage/>
     </>
   )
 }
