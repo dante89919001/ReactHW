@@ -1,0 +1,17 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    max-width: 1920px;
+    width: 100%;
+    padding: 24px 32px;
+    height: 84px;
+    align-items:center;
+}
+
+.footerTitle{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}

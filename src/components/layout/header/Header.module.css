@@ -1,0 +1,34 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    max-width: 1920px;
+    width: 100%;
+    padding: 24px 32px;
+    height: 84px;
+    align-items:center;
+}
+.headerTitle{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.5px;
+    color: #FFFFFF;
+}
+.cartContainer{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.catrCounter{
+    background-color: #FF5500;
+    padding: 4px;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
