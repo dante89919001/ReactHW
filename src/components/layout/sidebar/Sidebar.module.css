@@ -70,3 +70,11 @@
     border: 1px solid #E1E3E6 ;
     cursor: pointer;
 }
+.filterText{
+
+    color: #999FA6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}

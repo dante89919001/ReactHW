@@ -29,14 +29,14 @@ export const Sidebar:React.FC<Sidebar> = () =>{
                 <div className={`${styles.genreContainer} ${styles.filterBlock}`}>
                     <label className={styles.filterLabel}>Жанр</label>
                     <div className={styles.filter}>
-                        <p>Выберите жанр</p>
+                        <p className={styles.filterText}>Выберите жанр</p>
                         <Image src="/img/arrowDown.svg" alt="Стрелка" width={20} height={20} />
                     </div>
                 </div>
                 <div className={`${styles.cinemaContainer} ${styles.filterBlock}`}>
                     <label  className={styles.filterLabel}>Кинотеатр</label>
                     <div className={styles.filter} >
-                        <p>Выберите кинотеатр</p>
+                        <p className={styles.filterText}>Выберите кинотеатр</p>
                         <Image src="/img/arrowDown.svg" alt="Стрелка" width={20} height={20} />
                     </div>              
                 </div>

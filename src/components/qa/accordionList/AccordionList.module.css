@@ -1,0 +1,29 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.accordionTitleContainer{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 1856px;
+    margin: 32px;
+}
+.accordionTitle{
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 32px;
+    color: var(--text-primary-color);
+}
+
+.accordionListContainer{
+    max-width: 1856px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 16px;
+    margin: 32px;
+}

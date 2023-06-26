@@ -1,0 +1,41 @@
+
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    
+}
+.itemTitleContainer{
+
+    padding: 24px;
+    max-width: 1856px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.itemTitle{
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 32px;
+    color: var(--text-primary-color);
+}
+
+.itemText{
+    padding: 24px;
+    max-width: 1856px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--text-primary-color);
+
+}
+.arrow{
+    transition: all 1s ease-out;
+}
+.arrowActive{
+    transform: rotate(180deg);
+    transition: all 1s ease-out;
+}
