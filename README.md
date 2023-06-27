@@ -1,3 +1,12 @@
+Друг , к сожалению я криворукий и сломал свой код когда заливал 
+
+1) Шапка не стики  - styles.header{position:sticky; top:0; z-index:10;}
+2) На главной странице билеты нельзя уменьшить до 0, к сожалению я засыпал и забыл добавить в props функцию модалки
+
+Если будут вопросы или замечания, мой telegram - @ivan8991
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
